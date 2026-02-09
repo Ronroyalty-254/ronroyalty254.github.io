@@ -1,6 +1,6 @@
 #  Animation Portfolio — Ron Royalty254
 
-This repository contains my personal **animation portfolio website**, built using **HTML only** and hosted with **GitHub Pages**.
+This repository contains Ron ROYALTY Animation portfolio **animation portfolio website**, built using **HTML only** and hosted with **GitHub Pages**.
 
 The site showcases my work as a **3D & Motion Designer**, including showreels, selected projects, and background information.
 
@@ -38,18 +38,10 @@ The site showcases my work as a **3D & Motion Designer**, including showreels, s
 
 ---
 
-##  How to Use / Edit
-1. Open `index.html`
-2. Replace text with your own content
-3. Add videos, GIFs, or embedded links
-4. Commit changes — the site updates automatically
-
----
-
 ##  Contact
 If you’d like to collaborate or hire me:
 
-- Email: your@email.com
+- Email: ronroyalty254@gmail.com
 - Instagram: (add link)
 - YouTube / Vimeo: (add link)
 
