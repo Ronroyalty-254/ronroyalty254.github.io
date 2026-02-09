@@ -1,110 +1,162 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ron Royalty | Animation Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ron Royalty – Empowering Africa's Digital Future</title>
+
+  <meta name="description" content="Ron Royalty – The creative powerhouse of Ronald Otieno, building innovations at the edge of design, animation, apps, comics, and AI." />
+  <meta name="author" content="Ronald Otieno" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ron Royalty – Empowering Africa's Digital Future" />
+  <meta property="og:description" content="Building innovations at the edge of design, animation, apps, comics, and AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/preview.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="assets/images/preview.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0b0b0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 90px 10%;
+    }
+
+    h1, h2 {
+      color: #f5c16c;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: radial-gradient(circle at top, #1a1a2e, #0b0b0f);
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+    }
+
+    .hero p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      opacity: 0.85;
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .project {
+      background: #12121a;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    .project img,
+    .project video {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    /* CONTACT */
+    .contact p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #050508;
+      opacity: 0.7;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 
-<body style="
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:#0e0e0e;
-  color:white;
-  text-align:center;
-">
+<body>
 
-<!-- HERO -->
-<div style="
-  padding:90px 20px;
-  background:linear-gradient(135deg,#111,#222);
-">
-  <h1 style="font-size:48px;margin:0;">Ron Royalty</h1>
-  <p style="font-size:18px;opacity:0.85;">
-    3D & Motion Designer
-  </p>
-</div>
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1>Ron Royalty</h1>
+      <p>Animation • Design • Apps • Comics • AI</p>
+    </div>
+  </section>
 
-<!-- SHOWREEL -->
-<div style="padding:70px 20px;">
-  <h2>Showreel</h2>
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m Ronald Otieno — a multidisciplinary digital creator crafting
+      cinematic animations, futuristic interfaces, and storytelling-driven
+      visuals that push Africa’s digital future forward.
+    </p>
+  </section>
 
-  <video controls autoplay muted loop
-    style="
-      width:90%;
-      max-width:900px;
-      margin-top:20px;
-      border-radius:14px;
-    ">
-    <source src="assets/showreel.mp4" type="video/mp4">
-    Your browser does not support video.
-  </video>
-</div>
+  <!-- PROJECTS -->
+  <section>
+    <h2>Featured Work</h2>
 
-<!-- WORKS -->
-<div style="padding:70px 20px;">
-  <h2>Selected Works</h2>
+    <div class="projects-grid">
 
-  <!-- WORK 1 -->
-  <div style="margin:40px 0;">
-    <img src="assets/anim1.gif"
-      style="width:90%;max-width:500px;border-radius:14px;"
-      alt="Animation 1">
-    <p style="opacity:0.8;">Sci-Fi Logo Animation</p>
-  </div>
+      <div class="project">
+        <video controls>
+          <source src="assets/videos/project1.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+        <p>Experimental 3D Animation</p>
+      </div>
 
-  <!-- WORK 2 -->
-  <div style="margin:40px 0;">
-    <img src="assets/anim2.gif"
-      style="width:90%;max-width:500px;border-radius:14px;"
-      alt="Animation 2">
-    <p style="opacity:0.8;">Cinematic Text Reveal</p>
-  </div>
+      <div class="project">
+        <img src="assets/images/project1.jpg" alt="Visual project">
+        <p>Concept Art & Motion Design</p>
+      </div>
 
-  <!-- WORK 3 (VIDEO) -->
-  <div style="margin:40px 0;">
-    <video controls muted loop
-      style="width:90%;max-width:500px;border-radius:14px;">
-      <source src="assets/project1.mp4" type="video/mp4">
-    </video>
-    <p style="opacity:0.8;">3D Motion Experiment</p>
-  </div>
-</div>
+    </div>
+  </section>
 
-<!-- ABOUT -->
-<div style="padding:70px 20px;">
-  <h2>About Me</h2>
-  <p style="
-    max-width:700px;
-    margin:auto;
-    line-height:1.7;
-    opacity:0.9;
-  ">
-    I am a 3D and motion designer focused on cinematic visuals,
-    logo animations, and stylized motion graphics.
-    I work mainly with Blender and modern animation pipelines.
-  </p>
-</div>
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: ronroyalty@email.com</p>
+    <p>Instagram | YouTube | GitHub</p>
+  </section>
 
-<!-- CONTACT -->
-<div style="
-  padding:40px 20px;
-  background:#111;
-  font-size:14px;
-">
-  <p>
-    Contact:
-    <a href="mailto:ronroyalty254@email.com" style="color:#00ffe0;text-decoration:none;">
-      your@email.com
-    </a>
-  </p>
-
-  <p>
-    <a href="#" style="color:#00ffe0;margin:0 10px;">Instagram</a>
-    <a href="#" style="color:#00ffe0;margin:0 10px;">YouTube</a>
-    <a href="#" style="color:#00ffe0;margin:0 10px;">ArtStation</a>
-  </p>
-</div>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Ron Royalty. All rights reserved.
+  </footer>
 
 </body>
 </html>
